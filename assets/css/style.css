@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    line-height: 1.4rem;
+    background-color: #fff;
+}
+main.container{
+    padding: 4rem 8rem;
+}
+/* -------navigation-pane---------*/
+div.navin-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+div.navin-logo nav ul li{
+    list-style: none;
+    /* display: flex; */
+    /* flex-direction: row; */
+    float: left;
+    padding: 0 1rem;
+}
+div.navin-logo nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+div.navin-logo nav ul li a:hover{
+    color: orangered;
+}
+/* -------navigation-pane-close---------*/
+/* -------section1-pane----------*/
+section.brand{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+section.brand div.content{
+    /* justify-content: space-between; */
+    padding: 0 1rem;
+}
+section.brand div.content div.below-content{
+    display: flex;
+    flex-direction: row;
+}
+section.brand div.content div.below-content h2{
+    font-size: 50px;
+    width: 40%;    
+    height: 100%;
+    word-spacing: .2rem;
+    line-height: 2.8rem;
+    font-weight: bolder;
+}
+section.brand div.content div.below-content p{
+    color: grey;
+    width: 40%;
+    padding-top: .9rem;
+}
+section.brand div.content div.below-content p button{
+    padding: .7rem 2.9rem;
+    background-color: rgb(247, 84, 111);
+    color: #fff;
+    outline: none;
+    border: none;
+    /* margin-top: .9rem; */
+}
+section.brand div.side-pain{
+    background-color: rgb(6, 6, 29);
+    height: 32rem;
+}
+section.brand div.side-pain h1{
+    color: #fad60e;
+    font-size: 2.5rem;
+}
+section.brand div.side-pain p{
+    color: rgb(179, 174, 174);
+    line-height: 2rem;
+}
+section.brand div.side-pain p .inc{
+    font-weight: bold;
+    color: #fff;
+}
+
+/* -------section1-pane-close---------*/
+/* -------section2-pane----------*/
+section.last{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+section.last div.tag{
+    display: flex;
+    flex-direction: row;
+}
+section.last div.tag .log2{
+    padding-left: 1.3rem;
+    /* padding-top: -50px; */
+    line-height: .4rem;
+    background-color: rgba(252, 240, 240, 0.644);
+}
+section.last div.tag .log2 h3{
+    color: grey;
+    font-size: 1.6rem;
+}
+section.last div.tag .log2 span{
+    color: gray;
+    line-height: .9rem;
+}
+section.last div.tag .log2 p{
+    color: #000;
+    font-weight: bold;
+   
+}
+/* -------section2-pane-close---------*/
+/* -------foooter-pane---------*/
+div.attribution div.footer{
+
+    /* margin-left: 35%; */
+    padding: 2rem 0;
+    background-color: gray;
+}
+div.attribution div.footer p{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30rem;
+    color: #fff;
+}
+div.attribution div.footer p a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+/* -------footer-pane-close---------*/
+
+
